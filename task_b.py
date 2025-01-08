@@ -1,9 +1,10 @@
 
+
 try:
     grade = int(input("Enter a numerical grade between 0 - 100: "))
 
     if grade < 0 or grade > 100:
-        print("Grades must be between 0 and 100")
+        print("Error: Grades must be between 0 and 100")
     else:
         if grade >= 80:
             letter = "A"
