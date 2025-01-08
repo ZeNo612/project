@@ -17,7 +17,7 @@ try:
         else:
             letter = "F"
 
-        print(f"Your grade is:{letter}")
+        print(f"Your grade is: {letter}")
 
 except: 
     print("Error: Please enter a number")
